@@ -1,5 +1,5 @@
-[rewrite_local]
+hostname = rights-apigw.meituan.com
+
 ^https:\/\/rights-apigw\.meituan\.com\/api\/rights\/activity\/secKill\/info url script-response-body https://raw.githubusercontent.com/chmodxxoo/qx/refs/heads/main/mt.js
 
-[mitm]
-hostname = rights-apigw.meituan.com
+
